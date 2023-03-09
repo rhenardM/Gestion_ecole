@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 80%;
+    font-family: 'montserrat', sans-serif;
+}
+body{
+	margin:0px;
+	padding: 0px;
+	background-color: #3cb371;
+}
+.tab {
+	background-color: white;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+.tab th,td{
+	padding: 5px;
+}
+.bouton{
+	width: 150px;
+	height: 25px;
+	font-size: 17px;
+	background-color: #7fff00;
+}
+.bouton2{
+	width: 330px;
+	height: 25px;
+	font-size: 17px;
+	background-color: #7fff00;
+}
+fieldset{
+	width: 50%;
+	border:3px solid black;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
