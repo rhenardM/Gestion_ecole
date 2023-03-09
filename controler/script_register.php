@@ -25,7 +25,7 @@
             if(empty($s_classe)) $message.="<li>  Situation classe laissez vide! </li>";
             if(empty($s_ecole)) $message.="<li> Situation école laissez vide!</li>";
             if(empty($message and  $message2)){
-                include ('connexion.php');
+                include ('../model/connexion.php');
                 if (isset($_POST['benrg']) && !empty($matricule) && !empty($nom) && !empty($prenom) && !empty($sexe) && !empty($classe)
                 && !empty($dateN) && !empty($quartier) && !empty($contact) && !empty($s_classe) && !empty($s_ecole)) {
                     $sql=$pdo->prepare("INSERT INTO tb_eleve(  matricule,
@@ -46,7 +46,7 @@
                         $message2.= "<b>Inscription éffectuée avec succès! </b>";
                             }else{
                         $message="<b>Erreur ! </b>";
-                            }
+                        }
         }
     }
 }

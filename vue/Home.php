@@ -1,14 +1,14 @@
 <?php 
   session_start();
-  require 'modale.php'; 
+  require '../vue/modale.php'; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="HomeStyle.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="../vue/css/HomeStyle.css">
+    <link rel="stylesheet" href="../vue/css/bootstrap.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </script>
     <title>Accueil</title>
@@ -22,7 +22,7 @@
                 <li><a href="#Autres" onclick="toggleMenu">Service</a></li>
                 <li><a href="#apropos" onclick="toggleMenu">Apropos</a></li>
                 <li><a href="#contact" onclick="toggleMenu">Contact</a></li>
-                <a href="login.php" class=" btn-reserve" data-bs-toggle="modal" data-bs-target="#modal2"  onclick="toggleMenu();">Crée compte</a>
+                <a href="login.php" class=" btn-reserve" data-bs-toggle="modal" data-bs-target="#modal2">Crée compte</a>
                 <a href="index.php" class=" btn-reserve">S'authrntifier</a>
             </ul>
     </header>
@@ -46,7 +46,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title"><small class="fw-light"></small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <img src="image/educ.jpg" alt="" height="200px">
+              <img src=../Image/educ.jpg alt="" height="200px">
             </ul>
             <button type="button" class="w-100 btn btn-lg btn-primary">Tout voir</button>
           </div>
@@ -61,9 +61,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title"><small class="fw-light"></small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-            <img src="image/561_view.png" alt="" height="200px">
-              <li></li>
-              <li></li>
+            <img src="../image/insc.webp" alt="" height="200px">
               <li></li>
               <li></li>
             </ul>
@@ -80,7 +78,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title"><small class="fw-light"></small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-            <img src="image/gest.jpg" alt="" height="200px">
+            <img src="../image/gest.jpg" alt="" height="200px">
             </ul>
             <a href="Gestion.php" class="w-100 btn btn-lg btn-primary">Notre gestion</a>
           </div>
@@ -102,7 +100,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title"><small class="fw-light"></small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <img src="image/liv.webp" alt="" height="200px">
+              <img src="../image/liv.webp" alt="" height="200px">
             </ul>
             <button onclick="f()" type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
           </div>
@@ -117,7 +115,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title"><small class="fw-light"></small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-            <img src="image/news.jpg" alt="" height="200px">
+            <img src="../image/news.jpg" alt="" height="200px">
             </ul>
             <button type="button" class="w-100 btn btn-lg btn-primary">Tout voir</button>
           </div>
@@ -132,7 +130,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title"><small class="fw-light"></small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-            <img src="image/63bbf632320c33c88b18db39e3ace7c9.jpg" alt="" height="200px">
+            <img src="../image/63bbf632320c33c88b18db39e3ace7c9.jpg" alt="" height="200px">
             </ul>
             <button type="button" class="w-100 btn btn-lg btn-primary">Consulter</button>
           </div>
