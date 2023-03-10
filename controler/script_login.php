@@ -5,7 +5,7 @@ if(isset($_POST['valider'])){
      if(filter_var($_POST['username'], FILTER_VALIDATE_EMAIL)){
         if(isset($_POST['password']) and !empty($_POST['password'])){
 
-            require '../model/connexion.php';
+            require '../model/database.php';
 
             $password = md5($_POST['password']);
 
